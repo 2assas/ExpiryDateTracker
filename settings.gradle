@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ThirdWayV_ExpiryDataTracker"
 include ':app'
+include ':core'
