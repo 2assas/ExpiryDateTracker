@@ -10,4 +10,5 @@ interface ItemDataSource {
 
     suspend fun moveToExpired(item: Item)
 
+    suspend fun setExpireDate(item: Item, counter: Int)
 }
