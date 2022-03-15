@@ -1,0 +1,3 @@
+package com.example.thirdwayv_expirydatatracker.interactors
+
+class GetScannedItemsTest

@@ -4,11 +4,10 @@ import com.example.thirdwayv_expirydatatracker.domain.Item
 
 interface ItemDataSource {
 
-    suspend fun addItem(item: Item)
+    suspend fun addItem(item: Item) {}
 
-    suspend fun getItems(): List<Item>
+    suspend fun getItems(): List<Item>? = null
 
-    suspend fun moveToExpired(item: Item)
+    suspend fun moveToExpired(item: Item) {}
 
-    suspend fun setExpireDate(item: Item, counter: Int)
 }
